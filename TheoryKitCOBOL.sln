@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheoryKitCOBOL", "TheoryKitCOBOL\TheoryKitCOBOL.csproj", "{5CD99743-A4DC-4898-930C-9104C2427344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{A3845AF1-A872-4604-9547-D1DE95570903}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD99743-A4DC-4898-930C-9104C2427344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD99743-A4DC-4898-930C-9104C2427344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD99743-A4DC-4898-930C-9104C2427344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD99743-A4DC-4898-930C-9104C2427344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3845AF1-A872-4604-9547-D1DE95570903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3845AF1-A872-4604-9547-D1DE95570903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3845AF1-A872-4604-9547-D1DE95570903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3845AF1-A872-4604-9547-D1DE95570903}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41C6B822-02BF-41E3-9AF5-3A8078D8C6A5}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		description = Turring Theory kit for COBOL.
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.StandardHeader = $2
+		$2.Text = @Author: ${AuthorName}\n\n${CopyrightHolder}\n
+	EndGlobalSection
+EndGlobal

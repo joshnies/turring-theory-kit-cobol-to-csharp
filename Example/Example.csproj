@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <LangVersion>9.0</LangVersion>
+    <NoStdLib></NoStdLib>
+    <WarningsNotAsErrors></WarningsNotAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
+    <EnvironmentVariables>
+      <Variable name="DB_HOST" value="127.0.0.1" />
+      <Variable name="DB_USER" value="root" />
+      <Variable name="DB_PASS" value="rQtFzpNDdtWePdPefczYp8sr" />
+      <Variable name="DB_NAME" value="mta" />
+    </EnvironmentVariables>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TheoryKitCOBOL\TheoryKitCOBOL.csproj" />
+  </ItemGroup>
+</Project>
